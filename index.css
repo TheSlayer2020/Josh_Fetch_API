@@ -1,0 +1,116 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .header {
+    width: 100%;
+    padding: 40px;
+    background-color: rgb(16, 127, 152);
+  }
+  
+  .header h5 {
+    font-weight: bold;
+    font-family: Verdana;
+    font-size: 28px;
+    text-align: center;
+    color: rgb(207, 236, 39);
+  }
+
+  .TheHeader {
+    color: chartreuse;
+    background-color: rgb(244, 164, 107);
+   
+}
+
+.btn1 {
+    background-color: rgb(214, 70, 154);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: aliceblue;
+    border-radius: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 15px;
+    position: relative;
+    right: -10%;
+    
+    
+ 
+}
+
+.btn2 {
+    background-color: rgb(129, 136, 224);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: aliceblue;
+    border-radius: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    position: relative;
+    right: -20%;
+    
+}  
+
+.btn3 {
+    background-color: rgb(104, 197, 123);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: aliceblue;
+    border-radius: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    position: relative;
+    right: -30%;
+    
+ 
+}
+
+.btn4 {
+    background-color: rgb(204, 211, 125);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: aliceblue;
+    border-radius: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    position: relative;
+    right: -40%;
+    
+ 
+}
+
+#updatedData pre {
+    text-align: left;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Define a CSS class for the text color */
+
+/* Styles for Get Data */
+.get-data, .get-data pre {
+    color: white;
+}
+
+/* Styles for Updated Data */
+.updated-data, .updated-data pre {
+    color: rgb(238, 238, 241); /* Change this to your desired text color for updated data */
+}
+
+/* Styles for Create Data */
+.create-data, .create-data pre {
+    color: rgb(249, 251, 249); /* Change this to your desired text color for created data */
+}
+
+/* Styles for Delete Data */
+.delete-data, .delete-data pre {
+    color: rgb(237, 236, 236); /* Change this to your desired text color for deleted data */
+}
+
+
+.white-text {
+    color: white !important;
+}
